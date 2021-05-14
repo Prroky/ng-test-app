@@ -1,19 +1,10 @@
 <!-- Header -->
-<header>
-  <h1>{{title}}</h1>
-
-  <nav>
-    <ul class="menu">
-      <li><a href="#">Homepage</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+<app-header></app-header>
 
 <!-- Main content -->
 <router-outlet></router-outlet>
 
+<button (click)="buttonClickHandler('Hey!')">Klikni na mě!</button>
+
 <!-- Footer -->
-<footer>
-  <p class="copyright">&copy; Proky borec 2021</p>
-</footer>
+<app-footer [title]="'borec'"></app-footer>
