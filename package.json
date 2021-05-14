@@ -2,6 +2,7 @@
   "name": "test-app",
   "version": "0.0.0",
   "scripts": {
+    "dev": "ng serve --disable-host-check --host 0.0.0.0 --port 4200",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
